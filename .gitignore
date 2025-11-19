@@ -32,7 +32,7 @@ env.bak/
 venv.bak/
 
 # Antigravity / IDE
-.antigravity/
+
 .idea/
 .vscode/
 *.swp
