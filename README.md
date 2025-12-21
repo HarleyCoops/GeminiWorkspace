@@ -3,7 +3,7 @@
 Language: [English](README.md) | [中文](README_CN.md) | [Español](README_ES.md)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
+![Gemini](https://img.shields.io/badge/AI-Gemini_3.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
 
@@ -76,7 +76,7 @@ sequenceDiagram
 
 - 🧠 **Infinite Memory Engine**: Recursive summarization automatically compresses history. Context limits are a thing of the past.
 - 🛠️ **Universal Tool Protocol**: Generic ReAct pattern. Just register any Python function in `available_tools`, and the Agent learns to use it.
-- ⚡️ **Gemini Native**: Optimized for Gemini 2.0 Flash's speed and function calling capabilities.
+- ⚡️ **Gemini Native**: Optimized for Gemini 3.0 Flash's speed and function calling capabilities.
 - 🔌 **External LLM (OpenAI-format)**: Call any OpenAI-compatible API via the built-in `call_openai_chat` tool (supports OpenAI/Azure/Ollama).
 
 ## 🚀 Quick Start
@@ -271,7 +271,7 @@ sequenceDiagram
 
 - 🧠 **Infinite Memory Engine**: Recursive summarization automatically compresses history. Context limits are a thing of the past.
 - 🛠️ **Universal Tool Protocol**: Generic ReAct pattern. Just register any Python function in `available_tools`, and the Agent learns to use it.
-- ⚡️ **Gemini Native**: Optimized for Gemini 2.0 Flash's speed and function calling capabilities.
+- ⚡️ **Gemini Native**: Optimized for Gemini 3.0 Flash's speed and function calling capabilities.
 
 ## 🚀 Quick Start
 

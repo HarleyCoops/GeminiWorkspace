@@ -31,7 +31,7 @@ class Settings(BaseSettings):
 
     # Google GenAI Configuration
     GOOGLE_API_KEY: str = ""
-    GEMINI_MODEL_NAME: str = "gemini-2.0-flash-exp"  # Default to latest
+    GEMINI_MODEL_NAME: str = "gemini-3.0-flash"  # Default to latest
 
     # Agent Configuration
     AGENT_NAME: str = "AntigravityAgent"
@@ -47,7 +47,7 @@ class Settings(BaseSettings):
         description="API key for OpenAI-compatible endpoint. Leave blank if not required.",
     )
     OPENAI_MODEL: str = Field(
-        default="gpt-4o-mini",
+        default="gpt-5.2",
         description="Default model name for OpenAI-compatible chat completions.",
     )
 

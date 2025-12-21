@@ -3,7 +3,7 @@ Idiomas: [English](README.md) | [中文](README_CN.md) | [Espanol](README_ES.md)
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
+![Gemini](https://img.shields.io/badge/AI-Gemini_3.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
 
@@ -76,7 +76,7 @@ sequenceDiagram
 
 - 🧠 **Motor de Memoria Infinita**: La resumición recursiva comprime el historial automáticamente; los límites de contexto dejan de ser un problema.
 - 🛠️ **Protocolo Universal de Herramientas**: Patrón ReAct genérico. Registra cualquier función de Python en `available_tools` y el Agente sabrá usarla.
-- ⚡️ **Nativo de Gemini**: Optimizado para la velocidad y las llamadas a funciones de Gemini 2.0 Flash.
+- ⚡️ **Nativo de Gemini**: Optimizado para la velocidad y las llamadas a funciones de Gemini 3.0 Flash.
 - 🔌 **LLM externo (compatible OpenAI)**: Usa la herramienta `call_openai_chat` para llamar cualquier endpoint formato OpenAI (OpenAI/Azure/Ollama).
 
 ## 🚀 Inicio Rápido
@@ -171,7 +171,7 @@ Usa cualquier endpoint de chat tipo OpenAI (OpenAI, Azure OpenAI, Ollama, etc.) 
 ```bash
 OPENAI_BASE_URL=https://api.openai.com/v1   # o http://localhost:11434/v1 para Ollama u otro endpoint OpenAI-compatible
 OPENAI_API_KEY=sk-...                       # déjalo vacío si el endpoint no requiere clave
-OPENAI_MODEL=gpt-4o-mini                    # o el modelo que prefieras
+OPENAI_MODEL=gpt-5.2                    # o el modelo que prefieras
 ```
 2) Herramienta: `call_openai_chat` (args: prompt, system, opcional model/temperature/max_tokens).
 3) Comportamiento: sigue el esquema estándar `/chat/completions` y devuelve el texto del primer choice o un mensaje de error.

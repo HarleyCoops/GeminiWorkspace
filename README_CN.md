@@ -3,7 +3,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-![Gemini](https://img.shields.io/badge/AI-Gemini_2.0_Flash-blue)
+![Gemini](https://img.shields.io/badge/AI-Gemini_3.0_Flash-blue)
 ![Architecture](https://img.shields.io/badge/Architecture-Event_Driven-purple)
 ![Memory](https://img.shields.io/badge/Context-Infinite-orange)
 
@@ -76,7 +76,7 @@ sequenceDiagram
 
 - 🧠 **无限记忆引擎**：递归式摘要自动压缩历史，打破上下文限制。
 - 🛠️ **通用工具协议**：通用 ReAct 模式。把任意 Python 函数注册到 `available_tools`，Agent 即可学会调用。
-- ⚡️ **Gemini 原生**：针对 Gemini 2.0 Flash 的速度与函数调用能力做了优化。
+- ⚡️ **Gemini 原生**：针对 Gemini 3.0 Flash 的速度与函数调用能力做了优化。
 - 🔌 **外部 LLM（OpenAI 兼容）**：通过内置 `call_openai_chat` 工具，以统一的 OpenAI 接口调用外部大模型（OpenAI/Azure/Ollama 等）。
 
 ## 🚀 快速开始
@@ -171,7 +171,7 @@ AI 会自动：
 ```bash
 OPENAI_BASE_URL=https://api.openai.com/v1   # 或 http://localhost:11434/v1 等 OpenAI 兼容端点
 OPENAI_API_KEY=sk-...                       # 若端点无需鉴权可留空
-OPENAI_MODEL=gpt-4o-mini                    # 或你的模型名
+OPENAI_MODEL=gpt-5.2                    # 或你的模型名
 ```
 2) 工具：`call_openai_chat`（参数：prompt，system，可选 model、temperature、max_tokens）。
 3) 行为：遵循标准 `/chat/completions` JSON，返回第一条消息文本或错误信息。
