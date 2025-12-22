@@ -2,9 +2,9 @@
 
 ## 1. Executive Summary & Core Mission
 
-**Project Name:** Antigravity Workspace Template
+**Project Name:** Medical Information Agent
 **Core Technology:** Google Gemini (optimized for 2.0 Flash and above) & Google Antigravity Platform
-**Mission:** To provide a "Zero-Config," enterprise-grade starter kit for building autonomous AI agents. The primary goal is to clone the repository, open it in a compatible IDE (like Cursor or Google Antigravity), and have the AI agent immediately understand its purpose, architecture, and operational protocols without manual prompting.
+**Mission:** To be a medical information agent that provides a comprehensive analysis of "Roux-en-Y gastric bypass." The agent should be able to summarize the procedure, discuss its pros and cons, and explain what to expect before and after the surgery, based on the information from the NIDDK website.
 
 **Core Philosophy: "Cognitive-First" & "Artifact-First"**
 The agent must not just execute tasks but *think* like a senior engineer. This is achieved through a mandatory "Think-Act-Reflect" loop.

@@ -1,0 +1,57 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Template MCP Servers Configuration - Portable and Cross-Platform",
+    "servers": [
+        {
+            "name": "github",
+            "description": "GitHub API integration",
+            "transport": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-github"
+            ],
+            "enabled": false,
+            "env": {
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+            }
+        },
+        {
+            "name": "filesystem",
+            "description": "Local filesystem access (Note: Requires allowed directories as args)",
+            "transport": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "./artifacts"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "puppeteer",
+            "description": "Browser automation",
+            "transport": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-puppeteer"
+            ],
+            "enabled": false
+        },
+        {
+            "name": "google-search",
+            "description": "Web search via Google/Brave",
+            "transport": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-brave-search"
+            ],
+            "enabled": false,
+            "env": {
+                "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+            }
+        }
+    ]
+}

@@ -1,14 +1,14 @@
 # Agent Mission
 
-**Objective:** Build a stock analysis agent.
+**Objective:** Build a medical information agent.
 
 ## Description
-This agent should be able to take a stock ticker symbol (e.g., "GOOGL", "AAPL") and provide a comprehensive analysis including:
-1.  Current price and recent performance.
-2.  Latest news headlines related to the company.
-3.  A summary of analyst ratings.
+This agent should be able to provide a comprehensive analysis of "Roux-en-Y gastric bypass", including:
+1.  A summary of the procedure.
+2.  The pros and cons of the surgery.
+3.  What to expect before and after the surgery.
 
 ## Success Criteria
-- The agent can successfully retrieve real-time data.
+- The agent can successfully retrieve and summarize the information.
 - The output is a concise, readable report.
-- The agent handles invalid tickers gracefully.
+- The agent can answer specific questions about the procedure.

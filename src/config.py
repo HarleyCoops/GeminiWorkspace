@@ -55,7 +55,7 @@ class Settings(BaseSettings):
     MEMORY_FILE: str = "agent_memory.json"
 
     # MCP Configuration
-    MCP_ENABLED: bool = Field(default=False, description="Enable MCP integration")
+    MCP_ENABLED: bool = Field(default=True, description="Enable MCP integration")
     MCP_SERVERS_CONFIG: str = Field(
         default="mcp_servers.json", description="Path to MCP servers configuration file"
     )

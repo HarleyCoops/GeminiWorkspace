@@ -82,11 +82,15 @@ sequenceDiagram
 ## 🚀 Quick Start
 
 ### Local Development
-1. **Install Dependencies**:
+1. **Clone the Repo** (or use the "Use this template" button).
+2. **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
-2. **Run the Agent**:
+3. **Setup Configuration**:
+    - Copy `.env.example` to `.env` and add your API keys.
+    - Copy `mcp_servers.template.json` to `mcp_servers.json` and enable the servers you need.
+4. **Run the Agent**:
     ```bash
     python src/agent.py
     ```
@@ -589,6 +593,23 @@ print(result)
 ✅ [Reviewer] Review complete!
 🎉 Task Completed!
 ```
+## 🛠️ How to make this your own Template
+
+If you want to use this repository as a base for your own AI projects or share it as a template on GitHub:
+
+1. **Enable Template Mode**:
+   - Go to your repository **Settings** on GitHub.
+   - Under the **General** tab, check the box: **"Template repository"**.
+   - This adds a **"Use this template"** button for anyone who visits your repo.
+
+2. **Clean Initialization**:
+   - The `.gitignore` is already set up to exclude your personal `.env`, `agent_memory.json`, and `mcp_servers.json`.
+   - Ensure you keep `.env.example` and `mcp_servers.template.json` as the reference points for new users.
+
+3. **Rename & Customize**:
+   - Change the `AGENT_NAME` in `.env`.
+   - Update `mission.md` to define your agent's specific purpose.
+
 ## 👥 Contributors
 
 A massive thank you to the community members who help build this project:
